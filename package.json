@@ -1,0 +1,27 @@
+{
+  "name": "@ecrow-ltd/schema",
+  "version": "1.0.0",
+  "description": "The primary data schema used for state management and messaging in eCrow Ltd. web software.",
+  "main": "index.js",
+  "scripts": {
+    "compile": "rimraf ./validators/* && node ./scripts/compile.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecrow-ltd/schema.git"
+  },
+  "author": "eCrow Ltd.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ecrow-ltd/schema/issues"
+  },
+  "homepage": "https://github.com/ecrow-ltd/schema#readme",
+  "devDependencies": {
+    "@adobe/jsonschema2md": "^3.3.1",
+    "ajv": "^6.10.2",
+    "ajv-cli": "^3.0.0",
+    "ajv-pack": "^0.3.1",
+    "rimraf": "^3.0.0"
+  }
+}

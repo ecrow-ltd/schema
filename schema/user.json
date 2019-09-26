@@ -1,0 +1,13 @@
+{
+    "$id": "user.json",
+    "title": "user",
+    "description": "User object.",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "name of the user"
+        }
+    }
+}
