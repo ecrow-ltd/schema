@@ -23,5 +23,12 @@
     "ajv-cli": "^3.0.0",
     "ajv-pack": "^0.3.1",
     "rimraf": "^3.0.0"
+  },
+  "dependencies": {
+    "@adobe/jsonschema2md": "^4.1.2",
+    "ajv": "^6.12.2",
+    "ajv-cli": "^3.1.0",
+    "ajv-pack": "^0.3.1",
+    "rimraf": "^3.0.2"
   }
 }
